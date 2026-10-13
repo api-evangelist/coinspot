@@ -1,0 +1,15 @@
+name: CoinSpot API Lifecycle
+generated: '2026-10-13'
+method: searched
+source: https://www.coinspot.com.au/v2/api
+versioning:
+  scheme: path
+  current: v2
+  note: V2 is the current version and "though it still remains technically in BETA status the V2 API is considered stable".
+deprecation:
+  policy: The previous (V1) API is still active for legacy purposes but it is recommended users migrate to the new V2 API version.
+  legacy_versions:
+  - version: v1
+    docs: https://www.coinspot.com.au/api
+    status: active (legacy)
+status_page: null

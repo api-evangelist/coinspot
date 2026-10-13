@@ -1,0 +1,14 @@
+name: CoinSpot Packages
+generated: '2026-10-13'
+method: searched
+source: https://www.coinspot.com.au/v2/api
+packages:
+- name: coinspot-api
+  registry: npm
+  url: https://www.npmjs.com/package/coinspot-api
+  language: JavaScript
+  official: true
+  version: 0.1.20
+  published: '2014-06-12'
+  repository: https://github.com/rtw/npm-coinspot-api
+  note: Linked from the CoinSpot V2 API page SDK section ("We currently have a node.js SDK"); npm maintainer is coinspot <rtw@coinspot.com.au>. Last published 2014, so it predates the V2 API.

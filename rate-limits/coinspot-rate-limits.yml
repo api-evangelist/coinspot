@@ -1,0 +1,10 @@
+name: CoinSpot API Rate Limits
+generated: '2026-10-13'
+method: searched
+source: https://www.coinspot.com.au/v2/api
+limits:
+- name: All API requests
+  window: 1 minute
+  max: 1000
+  scope: per account / API (unspecified)
+  limit_text: Requests are limited to 1000 requests per minute.

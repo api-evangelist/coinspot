@@ -1,0 +1,27 @@
+name: CoinSpot API Conventions
+generated: '2026-10-13'
+method: searched
+source: https://www.coinspot.com.au/v2/api
+auth: HMAC-SHA512 signed POST body; headers key + sign; increasing integer nonce in the body.
+format: All requests and responses are JSON; all response date and time values are UTC (e.g. 2020-05-21T13:22:45.000Z).
+methods: GET for the Public API, POST for all other API requests.
+idempotency:
+  coverage: none
+  note: No idempotency key is documented; the strictly increasing nonce prevents replay but is not an idempotency mechanism.
+pagination:
+  style: none documented
+  note: History endpoints accept startdate/enddate (and limit on some) inputs per the docs.
+versioning: Path versioned (/api/v2, /pubapi/v2); V1 still active as legacy.
+errors: errors/coinspot-error-codes.yml
+rate_limits: rate-limits/coinspot-rate-limits.yml
+reversibility:
+  - surface: Market buy orders
+    reversal: cancel
+    operationId: cancelMyBuyOrder
+    window: while the order is open
+  - surface: Market sell orders
+    reversal: cancel
+    operationId: cancelMySellOrder
+    window: while the order is open
+  - surface: Buy/Sell/Swap Now orders and coin withdrawals
+    reversal: none documented

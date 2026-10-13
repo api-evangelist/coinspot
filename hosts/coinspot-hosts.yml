@@ -1,0 +1,42 @@
+generated: '2026-10-13'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 2
+  own: 1
+  other_domain: 1
+  platform: 0
+  roles:
+  - api
+  - website
+hosts:
+- host: www.coinspot.com.au
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  - Documentation
+  - APIReference
+  - Pricing
+  - TermsOfService
+  - PrivacyPolicy
+  - Support
+  - Blog
+  - Login
+  - SignUp
+  - Newsroom
+  - Security
+  serves:
+  - api
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: coinspot.com.au
+  role: website
+  relation: own

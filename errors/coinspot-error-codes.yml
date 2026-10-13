@@ -1,0 +1,14 @@
+name: CoinSpot API Errors
+generated: '2026-10-13'
+method: searched
+source: https://www.coinspot.com.au/v2/api
+format: custom-json
+envelope:
+  status: error
+  message: description of the issue encountered
+problems:
+- status: non-200
+  title: Request failure
+  type: about:blank
+  description: All requests return a 200 http status code if successful; any other status code indicates request failure and a message value in the response describes the issue (example "Coin not found").
+  remediation: Read the message value in the response body.

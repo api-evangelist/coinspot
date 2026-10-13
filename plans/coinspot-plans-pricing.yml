@@ -1,0 +1,21 @@
+name: CoinSpot Fees
+generated: '2026-10-13'
+method: searched
+source: https://www.coinspot.com.au/fees
+note: CoinSpot charges no fee for API access; the API trades at the exchange's published trading fees. No API-specific plans are published.
+plans:
+- name: Market Orders
+  price_text: 0.1%
+  features: [Trading fee for market orders]
+- name: OTC
+  price_text: 0.1%
+  features: [Over-The-Counter trading desk fee]
+- name: Instant Buy, Sell & Swap
+  price_text: 1%
+  features: [Instant buy, sell and swap trades]
+- name: Take Profit, Stop & Limit Orders
+  price_text: 1%
+  features: [Take profit, stop and limit orders]
+- name: Recurring Buy
+  price_text: 1%
+  features: [Recurring buys]

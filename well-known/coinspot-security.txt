@@ -1,0 +1,4 @@
+Contact: mailto:support@coinspot.com.au
+Contact: https://hackerone.com/coinspot
+
+Expires: 2026-10-20T15:34:15.365Z

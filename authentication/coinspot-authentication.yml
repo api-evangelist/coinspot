@@ -1,0 +1,16 @@
+name: CoinSpot API Authentication
+generated: '2026-10-13'
+method: searched
+source: https://www.coinspot.com.au/v2/api
+docs: https://www.coinspot.com.au/v2/api
+schemes:
+- name: hmac-sha512
+  type: apiKey
+  in: header
+  headers: [key, sign]
+  description: Every POST API request carries headers key (the API key generated at https://www.coinspot.com.au/my/api) and sign (the POST data signed with the secret key using HMAC-SHA512), plus a nonce post param that must always be greater than the previous request's nonce.
+- name: public
+  type: none
+  description: The Public API (https://www.coinspot.com.au/pubapi/v2, GET) needs no key.
+key_permissions:
+- Full access and read-only API keys; withdrawal functions must be enabled via the API key options at https://www.coinspot.com.au/my/api.

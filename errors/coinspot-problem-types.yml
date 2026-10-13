@@ -1,0 +1,20 @@
+generated: '2026-10-13'
+method: derived
+generator: derive-problem-types.py
+source:
+- openapi/_ae-authored/coinspot-openapi-generated.yml
+format: custom
+envelope:
+  media_type: application/json
+  schema: null
+coverage:
+  operations: 49
+  statuses_declared: 1
+problems:
+- status: default
+  title: null
+  description: Any non-200 status indicates failure; a message value describes the issue.
+  operations: 49
+  media_types:
+  - application/json
+  schema: null

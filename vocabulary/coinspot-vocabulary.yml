@@ -1,0 +1,25 @@
+generated: '2026-10-13'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/_ae-authored/coinspot-openapi-generated.yml
+vocabulary:
+  name: CoinSpot Domain Vocabulary
+  description: 'Terms declared by CoinSpot''s own API contract: its resource groups, objects and enumerations, with the contract''s definitions.
+    Derived, not authored.'
+  version: '2026-10-13'
+  terms:
+  - term: Public API
+    definition: 'Resource group in the contract; its operation GET /latest: Latest Prices'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/coinspot-openapi-generated.yml
+  - term: Trading API
+    definition: 'Resource group in the contract; its operation POST /status: Full Access Status Check'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/coinspot-openapi-generated.yml
+  - term: Read Only API
+    definition: 'Resource group in the contract; its operation POST /ro/status: Read Only Status Check'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/coinspot-openapi-generated.yml
