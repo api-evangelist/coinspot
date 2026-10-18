@@ -19,3 +19,39 @@ plans:
 - name: Recurring Buy
   price_text: 1%
   features: [Recurring buys]
+x-canonical:
+  generated: '2026-10-18'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Market Orders
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: OTC
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Instant Buy, Sell & Swap
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Take Profit, Stop & Limit Orders
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Recurring Buy
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
