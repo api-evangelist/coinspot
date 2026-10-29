@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CoinSpot is a company surfaced via the API Evangelist harvest backlog (source: market-gap:crypto-exchanges) and added to the network as a stub for full-pipeline profiling.
-- https://www.coinspot.com.au
+CoinSpot is an Australian cryptocurrency exchange (coinspot.com.au, member since 2014) offering buy/sell, swap, market and OTC trading across hundreds of coins. It publishes the CoinSpot API V2 (BETA): an unauthenticated Public API for latest prices and order books, a full-access trading API (quotes, market and instant orders, cancels, coin withdrawals) and a Read Only API for balances and history, all signed with HMAC-SHA512. The legacy V1 API remains active.
+
+**Areas:** Company · Cryptocurrency · Exchange · Trading · Australia · Bitcoin · Market Data
+
+## CoinSpot on APIs.io
+
+Everything profiled for CoinSpot is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/coinspot/](https://apis.io/providers/coinspot/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [CoinSpot Public API](https://apis.io/apis/coinspot/coinspot-public-api-api/) — The Public API API from CoinSpot — 13 operation(s) for public api.
+- [CoinSpot Read Only API](https://apis.io/apis/coinspot/coinspot-read-only-api-api/) — The Read Only API API from CoinSpot — 14 operation(s) for read only api.
+- [CoinSpot Trading API](https://apis.io/apis/coinspot/coinspot-trading-api-api/) — The Trading API API from CoinSpot — 22 operation(s) for trading api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [coinspot-mcp.yml](https://apis.io/servers/coinspot/coinspot-mcp-yml/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [CoinSpot API Rules](https://apis.io/rules/coinspot/coinspot-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Coinspot Authentication](https://apis.io/security/coinspot/coinspot-authentication/)
+- [Coinspot Domain Security](https://apis.io/security/coinspot/coinspot-domain-security/)
+- [Coinspot Vulnerability Disclosure](https://apis.io/security/coinspot/coinspot-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Coinspot Plans Pricing](https://apis.io/plans/coinspot/coinspot-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Coinspot Rate Limits](https://apis.io/rate-limits/coinspot/coinspot-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.coinspot.com.au)
+- [Documentation](https://www.coinspot.com.au/v2/api)
+- [API reference](https://www.coinspot.com.au/v2/api)
+- [Pricing](https://www.coinspot.com.au/fees)
+- [Sign up](https://www.coinspot.com.au/Register)
+- [Support](https://www.coinspot.com.au/contact)
+- [Blog](https://www.coinspot.com.au/blog)
+- [Security](https://www.coinspot.com.au/Security)
+- [Terms of service](https://www.coinspot.com.au/terms)
+- [Privacy policy](https://www.coinspot.com.au/privacy)
+
+## API Evangelist rating
+
+**Kin Score 43.6** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 13.3 |
+| Contract governance | 22.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 76.3 |
+
+**Agent readiness 29.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/coinspot/](https://apis.io/providers/coinspot/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CoinSpot: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/coinspot/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
